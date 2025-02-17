@@ -1,0 +1,36 @@
+.backgroundDiv{
+  border: solid black 2px;
+  width: 100%;
+  height: 100%;
+  background-color: #dbf0fe;
+}
+
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
+h1{
+  text-align: center;
+  font-family: "MyFont1";
+  font-size: 60px;
+  color: green
+   
+}
+
+@font-face {
+  font-family: "MyFont1";
+  src: url("C:\Users\tbart\Desktop\Dev\SBA320\my-react-app\public\Fonts\VarygraphiePersonalUseOnlyRegular-nRWX1.otf");
+}
+
+#cloudImg1, #cloudImg2{
+  height: 300px;
+  width: 300px;
+}
+
+.headerDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
