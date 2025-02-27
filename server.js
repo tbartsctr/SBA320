@@ -25,6 +25,7 @@ app.get("/weather", async (req, res) => {
         const weatherData = response.data;
 
         res.json(weatherData);
+        console.log(weatherData)
 
 
     } catch (error) {
